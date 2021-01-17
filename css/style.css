@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: blanchedalmond;
+}
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+li {
+    color: cyan;
+}
+
+.apple, .tomato {
+    color: red;
+}
+
+.pineapple {
+    color: yellow;
+}
+
+.watermelon, .cucumber {
+    color: green;
+}
+
+.kiwi {
+    color: #563429;
+}
+
+.banana {
+    color: gold;
+}
+
+.carrot {
+    color: orange;
+}
+
+.onion {
+    color: purple;
+}
+
+.lettuce {
+    color: greenyellow;
+}
+
+.a {
+    color: blue;
+}
