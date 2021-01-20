@@ -1,1 +1,4 @@
-/resources
+*.jpg
+*.png
+*.jpeg
+*.mp4
