@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+    background-image: linear-gradient(
+    90deg,
+    rgb(0, 1, 17),
+    rgb(0, 7, 22) 25%,
+    rgb(0, 35, 73)
+  );
+  height: 50px;
+}
+
+.img__logo {
+    margin: 10px;
+}
+
+.img__logo-logo {
+    margin-left: -10px;
+}
+
+.nav__menu {
+    display: inline;
+    flex-direction: column;
+    position: relative;
+    bottom: 35px;
+    color: white;
+    left: 830px;
+}
+
+.nav__settings {
+    display: flex;
+    float: right;
+    position: relative;
+    bottom: 35px;
+}
+
+.nav__avatar {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    justify-self: end;
+    margin-right: 10px;
+}
+
+.puntos {
+    color: white;
+    font-family: Lato,sans-serif;
+    font-size: 14px;
+}
+
+.nav__arrow {
+    display: flex;
+    position: relative;
+    top: -7px;
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.nav__menu-item {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 0 7px;
+    font-weight: bolder;
+    font-family:  Lato,sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tinkerbell {
+    margin-right: 20px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+main {
+    display: inline-block;
+}
+
+.main__rutas {
+    word-wrap: break-word;
+    width: 350px;
+}
+
+.main__title {
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.main__rutas-item {
+    display: flex;
+    margin: 10px 0px 10px 100px;
+}
+
+.ruta__text {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: cooper_hewittmedium;
+    font-weight: 600;
+    font-size: 16px;
+    top: 10px;
+}
+
+.continua__aprendiendo {
+    display: flex;
+    position: absolute;
+    top: 60px;
+    left: 400px;
+}
+
+.continua__aprendiendo-img {
+    display: flex;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+.main__busqueda {
+    display: flex;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+}
