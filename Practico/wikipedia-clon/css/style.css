@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+header {
+  margin-top: 4rem;
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.world-logo img {
+  width: 57px;
+  height: auto;
+  display: inline-block;
+}
+.header-section-left {
+  display: inline-block;
+  margin-right: 0.2rem;
+}
+.header-section-right {
+  display: inline-block;
+  margin-left: 0.2rem;
+}
+.header-section-right p {
+  font-size: 1.4rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  margin-top: -0.4rem;
+}
+
+main .input-container {
+  height: 4.3rem;
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+main .input-container input {
+  height: 100%;
+  width: 80%;
+  border: 1px solid #a2a9b1;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  outline: none;
+}
+main .input-container input:hover {
+  outline: #36c;
+  border: solid 1px rgba(114, 119, 125, 1);
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+main .input-container input:focus {
+  border: solid 2px #36c;
+}
+main .input-container .input-button {
+  height: 100%;
+  width: 5.5rem;
+  /* width: 10%; */
+  background-color: #36c;
+  border: none;
+  border-color: #36c;
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+main .input-container .input-button:hover {
+  cursor: pointer;
+}
+.fa-search {
+  color: white;
+}
+.fa-search:hover {
+  cursor: pointer;
+}
+
+.section-lang {
+  display: grid;
+  padding: 0.5rem 2rem;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  justify-self: center;
+}
+.lang {
+  padding: 1rem;
+}
+.lang strong:hover {
+  text-decoration-line: underline;
+}
+.section-lang .lang strong {
+  font-size: 1.4rem;
+  color: #36c;
+  margin-bottom: 4px;
+  display: block;
+  text-align: center;
+}
+.section-lang .lang small {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section-lang .lang bdi,
+.section-lang .lang span {
+  font-size: 1.3rem;
+  color: #54595d;
+  /* display: block; */
+  /* text-align: center; */
+}
+.language-button-section {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* display: grid;
+    grid-template-columns: 10% 80% 10%;
+    justify-items: center;
+    align-items: center; */
+  background-color: white;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.language-button-section .language-button {
+  width: 28rem;
+  height: 3.8rem;
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  align-items: center;
+  justify-items: center;
+  background-color: #f8f9fa;
+  outline: none;
+  border: 1px solid #a2a9b1;
+  cursor: pointer;
+}
+.language-button-section .language-button:hover {
+  background-color: white;
+}
+.language-button-section .language-button span {
+  font-size: 1.4rem;
+  color: #36c;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+}
+.language-button-section .language-button .language-icon {
+  background-image: url("../img/language-icon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 22px;
+  height: 22px;
+  margin-left: 1rem;
+}
+.language-button-section .language-button .arrow-icon {
+  background-image: url("../img/arrow-icon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 15px;
+  height: 15px;
+  margin-right: 1rem;
+}
+
+.language-button-section .lang-list-border {
+  height: 1px;
+  background-color: #c8ccd1;
+  width: 80%;
+  position: absolute;
+  margin-top: 1.8rem;
+  z-index: -1;
+}
+main .line-border {
+  margin: 3rem auto 0 auto;
+  height: 1px;
+  width: 95%;
+}
